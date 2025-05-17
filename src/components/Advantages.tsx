@@ -124,7 +124,7 @@ export default function Advantages() {
   return (
     <section className="w-full py-16 md:py-24 min-h-screen bg-white relative flex items-center" id="advantages">
       {/* Orange circular gradient blob */}
-      <div className="absolute w-[300px] h-[300px] bg-primary/70 rounded-full blur-[160px] top-1/3 left-1/2 transform -translate-x-1/2 z-0 animate-pulse-slow"></div>
+      <div className="absolute w-[200px] h-[200px] md:w-[300px] md:h-[300px] bg-primary/70 rounded-full blur-[100px] md:blur-[160px] top-1/3 left-1/2 transform -translate-x-1/2 z-0 animate-pulse-slow overflow-hidden"></div>
 
       <div className="relative z-10 flex flex-col md:flex-row max-w-6xl mx-auto px-4 md:px-8 w-full gap-12">
         {/* Text section - always on top for mobile, on left for desktop */}
