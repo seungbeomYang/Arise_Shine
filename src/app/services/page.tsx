@@ -158,7 +158,7 @@ export default function ServicesPage() {
           overlay={true}
           overlayOpacity="bg-black/50"
           className="vignette"
-          buttonText="Book an appointment"
+          buttonText="Book a session"
           buttonHref="/book"
           buttonVariant="outline"
         />
@@ -225,9 +225,10 @@ export default function ServicesPage() {
               </div>
               <div>
                 <TreatmentCard
-                  title="Extended Session"
+                  title="Extended Treatment"
+                  price="$20.00"
                   duration="60min"
-                  description="For complex conditions requiring more comprehensive treatment"
+                  description="Optional Tuina Massage: Add 20 minutes of Tuina massage for an additional NZ $20. Please let us know in advance if you would like this service."
                 />
               </div>
             </div>
@@ -246,25 +247,25 @@ export default function ServicesPage() {
               <div>
                 <TreatmentCard
                   title="Initial Consultation"
-                  price="$67.98"
+                  price="$60.00"
                   duration="60min"
                   description="Thorough assessment, acupuncture, and optional moxa/cupping/Tuina"
                 />
               </div>
               <div>
                 <TreatmentCard
-                  title="Express Treatment"
-                  price="$41.96"
-                  duration="30min"
+                  title="Follow-up Treatment"
+                  price="$45.00"
+                  duration="45min"
                   description="Focused acupuncture session (needling or moxa only)"
                 />
               </div>
               <div>
                 <TreatmentCard
                   title="Extended Treatment"
-                  price="$67.98"
+                  price="$65.00"
                   duration="60min"
-                  description="Ideal for stress relief, chronic conditions, or bodywork integration"
+                  description="Optional Tuina Massage: Add 20 minutes of Tuina massage for an additional NZ $20. Please let us know in advance if you would like this service."
                 />
               </div>
             </div>

@@ -155,7 +155,7 @@ export default function Advantages() {
 
           <div className="mt-10">
             <LearnMoreLink
-              href="/about"
+              href="/reviews"
               refProp={linkRef}
               textColor="primary"
             />

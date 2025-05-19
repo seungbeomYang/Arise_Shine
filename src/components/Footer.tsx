@@ -110,7 +110,7 @@ export default function Footer() {
                   className="object-contain"
                 />
               </div>
-              <h2 className="font-raleway font-semibold text-2xl text-black">Arise & Shine</h2>
+              <h2 className="font-raleway font-semibold text-2xl text-black">Arise & Shine Health</h2>
             </div>
           </div>
         </div>

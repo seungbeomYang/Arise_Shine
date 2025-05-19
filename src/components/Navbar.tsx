@@ -28,7 +28,7 @@ export default function Navbar() {
         document.body.style.overflow = 'unset';
       }
     }
-    
+
     return () => {
       document.body.style.overflow = 'unset';
     };
@@ -52,7 +52,7 @@ export default function Navbar() {
                   className="object-contain"
                 />
               </div>
-              <h2 className="font-raleway font-semibold text-2xl ml-2 text-black transition-colors duration-300 group-hover:text-primary">Arise & Shine</h2>
+              <h2 className="font-raleway font-semibold text-2xl ml-2 text-black transition-colors duration-300 group-hover:text-primary">Arise & Shine Health</h2>
             </Link>
           </div>
 
@@ -92,7 +92,7 @@ export default function Navbar() {
 
       {/* Mobile Menu Overlay */}
       {isMenuOpen && (
-        <div 
+        <div
           ref={mobileMenuRef}
           className="md:hidden fixed inset-0 bg-white z-40 flex flex-col transition-all duration-300 ease-in-out"
           style={{ opacity: 0, transform: 'translateX(100%)' }}

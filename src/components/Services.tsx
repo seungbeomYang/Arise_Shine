@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Badge, Heading, Text, ServiceCard } from "./design-system";
+import { Badge, Heading, Text, ServiceCard, Button } from "./design-system";
 
 export default function Services() {
   const badgeRef = useRef<HTMLDivElement>(null);
@@ -161,6 +161,15 @@ export default function Services() {
             cardVariant="secondary"
           />
         </div>
+      </div>
+      <div className="flex justify-center mt-10 w-full max-w-6xl mx-auto">
+        <Button
+          variant="primary"
+          size="lg"
+          href="/services"
+        >
+          Our services
+        </Button>
       </div>
     </section>
   );
