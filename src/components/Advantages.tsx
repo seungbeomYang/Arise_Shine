@@ -169,32 +169,32 @@ export default function Advantages() {
         >
           <AdvantageCard
             number="01"
-            title="Professional Excellence"
-            description="Over 9 years of clinical experience including hospital and private practice settings in both China and New Zealand."
+            title="Family-run and values-driven"
+            description="Our clinic is run by a dedicated family with a shared vision for compassionate, respectful care. We value integrity, warmth, and long-term relationships with our clients—treating each person as we would a family member."
             index={0}
           />
           <AdvantageCard
             number="02"
-            title="Cultural Understanding"
-            description="Fluent in English and Mandarin, connecting seamlessly with patients from diverse cultural backgrounds."
+            title="Gender-based practitioner choice"
+            description="We offer clients the option to choose a practitioner based on gender, ensuring comfort and cultural sensitivity. This approach reflects our commitment to personalised care and respect for individual preferences."
             index={1}
           />
           <AdvantageCard
             number="03"
-            title="Comprehensive Care"
-            description="A holistic approach combining acupuncture with therapeutic exercise for optimal recovery and long-term health."
+            title="Modern & Traditional integration"
+            description="We blend Traditional Chinese Medicine (TCM) with modern physiotherapy insights and Western diagnostic tools. This integrative approach helps address not just symptoms, but the root causes of pain and imbalance."
             index={2}
           />
           <AdvantageCard
             number="04"
-            title="Comprehensive Care"
-            description="A holistic approach combining acupuncture with therapeutic exercise for optimal recovery and long-term health."
+            title="Focused on musculoskeletal and postural care"
+            description="Our treatments are especially effective for pain, stiffness, and posture-related issues stemming from daily habits or long-term strain. We take a whole-body approach to restore alignment and prevent recurring discomfort."
             index={3}
           />
           <AdvantageCard
             number="05"
-            title="Comprehensive Care"
-            description="A holistic approach combining acupuncture with therapeutic exercise for optimal recovery and long-term health."
+            title="Future expansion to exercise + rehab plans"
+            description="We’re preparing to offer corrective exercise and rehabilitation services, enabling clients to take an active role in their recovery. Our vision is to empower long-term wellness through education, movement, and self-care."
             index={4}
           />
         </div>
