@@ -55,7 +55,7 @@ export const Button = ({
   const content = (
     <>
       {children}
-      {icon && <Image src={icon} alt={iconAlt} width={24} height={24} className="transition-transform duration-300 group-hover:translate-x-1" />}
+      {icon && <Image src={icon} alt={iconAlt} width={24} height={24} quality={90} loading="eager" className="transition-transform duration-300 group-hover:translate-x-1" />}
     </>
   );
 

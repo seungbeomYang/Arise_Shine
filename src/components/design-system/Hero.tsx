@@ -2,6 +2,7 @@ import React from 'react';
 import { cn } from '@/lib/utils';
 import { Heading, Text } from './Typography';
 import { Button } from './Button';
+import Image from 'next/image';
 
 type HeroProps = {
   title: string;
@@ -74,18 +75,25 @@ export const Hero = ({
           )}
         >
           {backgroundImage && (
-            <div
-              className={cn(
-                "absolute inset-0 z-10 rounded-[40px]",
-                overlay ? overlayOpacity : ''
+            <>
+              <Image
+                src={backgroundImage}
+                alt={title || "Background image"}
+                fill
+                sizes="100vw"
+                priority
+                className="object-cover rounded-[40px]"
+                quality={90}
+              />
+              {overlay && (
+                <div
+                  className={cn(
+                    "absolute inset-0 z-10 rounded-[40px]",
+                    overlayOpacity
+                  )}
+                />
               )}
-              style={{
-                backgroundImage: `url('${backgroundImage}')`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundBlendMode: overlay ? 'overlay' : 'normal'
-              }}
-            />
+            </>
           )}
 
           <div className={cn("relative z-20 flex flex-col p-8 md:p-12", alignStyles[align])}>

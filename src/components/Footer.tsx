@@ -105,8 +105,11 @@ export default function Footer() {
               <div className="relative h-12 w-12">
                 <Image
                   src="/images/logo.svg"
-                  alt="Logo part 1"
+                  alt="Arise & Shine Logo"
                   fill
+                  sizes="48px"
+                  loading="lazy"
+                  priority={false}
                   className="object-contain"
                 />
               </div>

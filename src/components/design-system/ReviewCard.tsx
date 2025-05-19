@@ -45,6 +45,8 @@ export const ReviewCard = ({
                 alt={name}
                 width={40}
                 height={40}
+                quality={80}
+                loading="lazy"
                 className="object-cover w-full h-full"
               />
             ) : (
@@ -85,6 +87,8 @@ export const ReviewCard = ({
               alt={`Reviewed on ${source}`}
               width={24}
               height={24}
+              quality={80}
+              loading="lazy"
             />
           </div>
         )}

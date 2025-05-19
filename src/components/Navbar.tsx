@@ -47,8 +47,10 @@ export default function Navbar() {
               <div className="relative h-12 w-12 transition-transform duration-300 group-hover:scale-110">
                 <Image
                   src="/images/logo.svg"
-                  alt="Logo part 1"
+                  alt="Arise & Shine Logo"
                   fill
+                  sizes="48px"
+                  priority={true}
                   className="object-contain"
                 />
               </div>
@@ -107,8 +109,10 @@ export default function Navbar() {
               <div className="relative h-10 w-10">
                 <Image
                   src="/images/logo.svg"
-                  alt="Logo"
+                  alt="Arise & Shine Logo"
                   fill
+                  sizes="40px"
+                  priority={true}
                   className="object-contain"
                 />
               </div>

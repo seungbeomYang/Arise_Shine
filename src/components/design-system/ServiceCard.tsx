@@ -55,6 +55,8 @@ export const ServiceCard = ({
                 alt={iconAlt}
                 width={32}
                 height={32}
+                quality={90}
+                loading="eager"
                 className="transition-transform duration-300 group-hover:rotate-3"
               />
             )}
@@ -84,6 +86,8 @@ export const ServiceCard = ({
                     alt={iconAlt}
                     width={40}
                     height={40}
+                    quality={90}
+                    loading="eager"
                     className="object-contain absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
                   />
                 )}
@@ -93,6 +97,8 @@ export const ServiceCard = ({
                     alt={altText2}
                     width={40}
                     height={40}
+                    quality={90}
+                    loading="eager"
                     className="object-contain absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
                   />
                 )}

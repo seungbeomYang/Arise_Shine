@@ -162,8 +162,11 @@ export default function About() {
             src="/images/uploads/arise.jpg"
             alt="Arise & Shine Acupuncture Clinic"
             fill
-            style={{ objectFit: "cover" }}
-            className="rounded-[59px]"
+            sizes="(max-width: 768px) 100vw, 50vw"
+            quality={85}
+            loading="eager"
+            priority={false}
+            className="rounded-[59px] object-cover"
           />
         </div>
       </div>
