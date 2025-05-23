@@ -150,7 +150,7 @@ export default function ReviewsPage() {
           align="center"
           overlay={false}
           buttonText="Share Your Experience"
-          buttonHref="https://g.page/r/CZxeeDCuQP9pEBM/review"
+          buttonHref="https://maps.app.goo.gl/Nw6wJF415mjqabMM6"
           buttonVariant="primary"
         />
       </div>
