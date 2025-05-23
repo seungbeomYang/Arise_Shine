@@ -228,7 +228,7 @@ export default function ServicesPage() {
                   title="Extended Treatment"
                   price="$20.00"
                   duration="60min"
-                  description="Optional Tuina Massage: Add 20 minutes of Tuina massage for an additional NZ $20. Please let us know in advance if you would like this service."
+                  description="Optional Tuina Massage: Add Tuina massage for an additional NZ $20. Please let us know in advance if you would like this service."
                 />
               </div>
             </div>

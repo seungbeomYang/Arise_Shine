@@ -81,7 +81,7 @@ export default function Footer() {
                 <div className="font-raleway text-base w-full">
                   <p className="text-black flex items-center md:justify-end gap-2 mb-3">
                     <Phone size={16} className="text-primary shrink-0" />
-                    <span className="text-black/70">022 051 6478</span>
+                    <span className="text-black/70">022 636 0734</span>
                   </p>
                   <p className="text-black flex items-center md:justify-end gap-2 mb-3">
                     <Mail size={16} className="text-primary shrink-0" />
@@ -91,10 +91,10 @@ export default function Footer() {
                     <MessageCircle size={16} className="text-primary shrink-0" />
                     <span className="text-black/70 break-all">KakaoTalk: open.kakao.com/o/sHiguHvh</span>
                   </p>
-                  <p className="text-black flex items-center md:justify-end gap-2">
+                  <a href="https://maps.app.goo.gl/Nw6wJF415mjqabMM6" target="_blank" rel="noopener noreferrer" className="text-black flex items-center md:justify-end gap-2 hover:underline cursor-pointer">
                     <MapPin size={16} className="text-primary shrink-0" />
                     <span className="text-black/70">Sunnyhills, Auckland</span>
-                  </p>
+                  </a>
                 </div>
               </div>
             </div>
