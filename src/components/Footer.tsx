@@ -81,7 +81,7 @@ export default function Footer() {
                 <div className="font-raleway text-base w-full">
                   <p className="text-black flex items-center md:justify-end gap-2 mb-3">
                     <Phone size={16} className="text-primary shrink-0" />
-                    <span className="text-black/70">022 636 0734</span>
+                    <span className="text-black/70">022 051 6478</span>
                   </p>
                   <p className="text-black flex items-center md:justify-end gap-2 mb-3">
                     <Mail size={16} className="text-primary shrink-0" />

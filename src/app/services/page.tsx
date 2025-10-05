@@ -219,15 +219,15 @@ export default function ServicesPage() {
               <div>
                 <TreatmentCard
                   title="Follow-up Treatment"
-                  duration="45min"
+                  duration="60min"
                   description="Progress review and focused treatment for your injury/condition"
                 />
               </div>
               <div>
                 <TreatmentCard
                   title="Extended Treatment"
-                  price="$20.00"
-                  duration="60min"
+                  price="+$20.00"
+                  duration=""
                   description="Optional Tuina Massage: Add Tuina massage for an additional NZ $20. Please let us know in advance if you would like this service."
                 />
               </div>
@@ -247,7 +247,7 @@ export default function ServicesPage() {
               <div>
                 <TreatmentCard
                   title="Initial Consultation"
-                  price="$60.00"
+                  price="$69.00"
                   duration="60min"
                   description="Thorough assessment, acupuncture, and optional moxa/cupping/Tuina"
                 />
@@ -255,16 +255,16 @@ export default function ServicesPage() {
               <div>
                 <TreatmentCard
                   title="Follow-up Treatment"
-                  price="$45.00"
-                  duration="45min"
+                  price="$69.00"
+                  duration="60min"
                   description="Focused acupuncture session (needling or moxa only)"
                 />
               </div>
               <div>
                 <TreatmentCard
                   title="Extended Treatment"
-                  price="$65.00"
-                  duration="60min"
+                  price="+$20.00"
+                  duration=""
                   description="Optional Tuina Massage: Add 20 minutes of Tuina massage for an additional NZ $20. Please let us know in advance if you would like this service."
                 />
               </div>
