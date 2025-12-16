@@ -91,9 +91,13 @@ export default function Footer() {
                     <MessageCircle size={16} className="text-primary shrink-0" />
                     <span className="text-black/70 break-all">KakaoTalk: open.kakao.com/o/sHiguHvh</span>
                   </p>
-                  <a href="https://maps.app.goo.gl/Nw6wJF415mjqabMM6" target="_blank" rel="noopener noreferrer" className="text-black flex items-center md:justify-end gap-2 hover:underline cursor-pointer">
+                  <a href="https://maps.app.goo.gl/Nw6wJF415mjqabMM6" target="_blank" rel="noopener noreferrer" className="text-black flex items-center md:justify-end gap-2 hover:underline cursor-pointer mb-3" style={{ background: 'unset', backgroundColor: 'unset' }}>
                     <MapPin size={16} className="text-primary shrink-0" />
-                    <span className="text-black/70">Sunnyhills, Auckland</span>
+                    <span className="text-black/70">Sunnyhills branch</span>
+                  </a>
+                  <a href="https://maps.app.goo.gl/U8UTMfdrA14Ywqhe9" target="_blank" rel="noopener noreferrer" className="text-black flex items-center md:justify-end gap-2 hover:underline cursor-pointer mb-3">
+                    <MapPin size={16} className="text-primary shrink-0" />
+                    <span className="text-black/70">Panmure branch</span>
                   </a>
                 </div>
               </div>

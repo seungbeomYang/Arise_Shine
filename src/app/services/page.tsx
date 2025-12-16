@@ -208,10 +208,11 @@ export default function ServicesPage() {
               For injury-related conditions covered by ACC. We'll help you process your claim — no referral needed.
             </Text>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full" ref={accCardsRef}>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full" ref={accCardsRef}>
               <div>
                 <TreatmentCard
                   title="Initial Consultation"
+                  price="$20.00"
                   duration="60min"
                   description="Full diagnosis, health history review, acupuncture treatment (may include moxa)"
                 />
@@ -219,16 +220,9 @@ export default function ServicesPage() {
               <div>
                 <TreatmentCard
                   title="Follow-up Treatment"
+                  price="$20.00"
                   duration="60min"
                   description="Progress review and focused treatment for your injury/condition"
-                />
-              </div>
-              <div>
-                <TreatmentCard
-                  title="Extended Treatment"
-                  price="+$20.00"
-                  duration=""
-                  description="Optional Tuina Massage: Add Tuina massage for an additional NZ $20. Please let us know in advance if you would like this service."
                 />
               </div>
             </div>
@@ -243,29 +237,21 @@ export default function ServicesPage() {
               Private Appointments
             </Heading>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full" ref={privateCardsRef}>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full" ref={privateCardsRef}>
               <div>
                 <TreatmentCard
                   title="Initial Consultation"
-                  price="$69.00"
+                  price="$80.00"
                   duration="60min"
-                  description="Thorough assessment, acupuncture, and optional moxa/cupping/Tuina"
+                  description="Full diagnosis, health history review, acupuncture treatment (may include moxa)"
                 />
               </div>
               <div>
                 <TreatmentCard
                   title="Follow-up Treatment"
-                  price="$69.00"
+                  price="$80.00"
                   duration="60min"
-                  description="Focused acupuncture session (needling or moxa only)"
-                />
-              </div>
-              <div>
-                <TreatmentCard
-                  title="Extended Treatment"
-                  price="+$20.00"
-                  duration=""
-                  description="Optional Tuina Massage: Add 20 minutes of Tuina massage for an additional NZ $20. Please let us know in advance if you would like this service."
+                  description="Progress review and focused treatment for your injury/condition"
                 />
               </div>
             </div>

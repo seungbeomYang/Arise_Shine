@@ -73,13 +73,11 @@ export default function BookingPage() {
       <Section padding="small" background="secondary">
         <div className="max-w-3xl mx-auto text-center">
           <Heading level={2} className="mb-4">Booking Information</Heading>
-          <Text size="base" className="mb-6">
+          <Text size="base" >
             Please note that our calendar shows New Zealand time. We recommend booking at least 24 hours in advance.
             For same-day appointments, please call us directly.
           </Text>
-          <Text size="base" className="font-semibold">
-            Our clinic is located in Sunnyhills, Auckland. The exact address will be shared upon booking confirmation.
-          </Text>
+
         </div>
       </Section>
 
